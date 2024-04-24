@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
                            '<strong>El Timbre al 0.03% es:</strong> ' + timbre.toFixed(2) + '<br>' +
                            '<strong>El Fiscalizacion Aduanera al 0.25% es:</strong> ' + fiscalizacionaduanera.toFixed(2) + '<br>' +
                            '<strong>El Derecho de importación al 0.2% es:</strong> ' + derechodeimportacion.toFixed(2) + '<br>' +
-                           '<strong>El total es:</strong> ' + suma.toFixed(2);
+                           '<strong>El Total es:</strong> ' + suma.toFixed(2);
     
         document.getElementById('resultado').innerHTML = resultadoHTML;
     }
